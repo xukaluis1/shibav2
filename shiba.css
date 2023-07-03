@@ -1,0 +1,690 @@
+body {
+    background-color: #E8F3FF;
+    width:100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.fullm{
+    position: fixed;
+    z-index: 1;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width:80%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.menu_left{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menu_left img{
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.menu_left img:hover{
+    opacity: 1;
+}
+.menu_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.menu_right ul{
+    display: flex;
+    align-items: center;
+}
+.menu_right li{
+    font-weight: bold;
+}
+.menu_right button{
+      background: linear-gradient(to bottom, #ff8a00 0%, #e52e71 100%);  
+      color: #fff;
+      border-radius: 10px;
+      font-size: 1em;
+      border: none;
+      padding: 9px;
+      transition: all 0.3s ease-in-out;
+}
+.menu_right button:hover{
+      background: linear-gradient(to bottom, #e52e71 0%, #ff8a00 100%);
+      cursor: pointer;
+}
+.menu_right button a:hover{
+      color: lightskyblue;
+      cursor: pointer;
+}
+
+.menu_right a{
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6em;
+  padding: 14px 14px;
+}
+.menu_right a:hover{
+    color: orange ;
+}
+
+
+.fullz{
+    padding-top: 100px;
+    width:100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    width: 80%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+.intro_wel{
+    text-align: center;
+}
+.intro_wel h1{
+    font-family: Tahoma;
+    font-size: 7em;
+    color: orange;
+    margin: 0;
+    margin-top: 6%;  
+}
+.intro_wel p{
+    font-family: Tahoma;
+    font-size: 1.5em;
+    color: orange;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.intro_logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.intro_logo img{
+    width: 100%;
+    height: 450px;
+    animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+ .socials-box {
+      background-color: orange;
+      width: 60px;
+      height: 60px;      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      border-radius: 10px;
+    }
+    
+    .socials-box a {
+      text-decoration: none;
+    }
+    
+    .socials-box img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+.fullx{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.pepes{
+    color: orange;
+    width:80%;
+    text-align: center;
+    font-size: 0.9em;
+}
+.fully{
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.amaz{
+    width: 80%;
+    text-align: center;
+    font-size: 4em;
+    color: orange;
+
+}
+.fullk{
+    width:100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.introduc{
+    width: 80%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+}
+.introd_con{
+    text-align: left;
+    margin-left: 20%;
+}
+.introd_con h4{
+    font-family: Tahoma;
+    font-size: 2em;
+    color: orange;
+}
+.introd_con p {
+    font-family: Tahoma;
+    font-size: 1em;
+    color: orange;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+.introd_logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.introd_logo img{
+    width: 100%;
+    height: 450px;
+}
+
+.fullf{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.footer h1{  
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 768px){
+.fullm{
+    height: 90px;
+}
+
+.menu{
+    height: 90px;
+}
+.menu_left{
+    height: 90px;
+}
+.menu_left img{
+    width: 80%;
+    height: 80%;
+}
+
+
+.menu_right li{
+    font-weight: unset;
+}
+.menu_right button{
+      font-size: 0.9em;
+}
+.menu_right a{
+  font-size: 1.3em;
+}   
+
+.fullz{
+    padding-top: 90px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    height: 800px;
+    display: block;
+}
+.intro_wel{
+    text-align: center;
+}
+.intro_wel h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+.intro_wel p{
+    display: block;
+    font-family: Tahoma;
+    font-size: 1.2em;
+    color: orange;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.intro_logo{
+    margin: 10% 0;  
+}
+
+.intro_logo img{
+    height: 350px;
+  
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.socials-box {
+    background-color: orange;
+    width: 60px;
+    height: 60px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
+}
+    
+.socials-box a {
+    text-decoration: none;
+}
+    
+.socials-box img {
+max-width: 80%;
+max-height: 80%;
+}
+
+.fullx{
+    height: 120px;
+    margin-bottom: 10%;    
+}
+.pepes{
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+.fully{
+    height: 150px;
+}
+.amaz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullk{
+   height: 800px;
+}
+
+.introduc{
+    height: 800px;
+    display: block;
+}
+.introd_con{
+    text-align: center;
+    margin-left: 0%;
+}
+.introd_con h4{
+    font-size: 2em;
+    margin: 0;
+    margin-top: 10%;
+}
+.introd_con p {
+    font-size: 1em;
+    margin: 2;
+}
+
+
+.introd_logo img{
+    height: 350px;
+}
+
+.fullf{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.footer h1{  
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+}
+
+
+
+@media screen and (max-width: 425px){
+.fullm{
+    height: 90px;
+}
+
+.menu{
+    display: block;
+    height: 90px;
+}
+.menu_left{
+    height: 90px;
+}
+.menu_left img{
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+}
+
+.menu_right{
+    display: none;
+}
+.menu_right li{
+    font-weight: unset;
+}
+.menu_right button{
+      font-size: 0.9em;
+}
+.menu_right a{
+  font-size: 1em;
+}   
+
+.fullz{
+    padding-top: 90px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    height: 600px;
+    display: block;
+}
+.intro_wel{
+    text-align: center;
+}
+.intro_wel h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+.intro_wel p{
+    display: block;
+    font-family: Tahoma;
+    font-size: 0.9em;
+    color: orange;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.intro_logo{
+    margin: 10% 0;  
+}
+
+.intro_logo img{
+    height: 300px;
+  
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.socials-box {
+    background-color: orange;
+    width: 40px;
+    height: 40px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
+}
+    
+.socials-box a {
+    text-decoration: none;
+}
+    
+.socials-box img {
+max-width: 80%;
+max-height: 80%;
+}
+
+.fullx{
+    height: 180px;
+    margin-bottom: 10%;    
+}
+.pepes{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+.fully{
+    width:100%;
+    height: 100px;
+}
+.amaz{
+    width:100%;
+    font-size: 3em;
+}
+
+.fullk{
+   height: 600px;
+}
+
+.introduc{
+    height: 600px;
+    display: block;
+}
+.introd_con{
+    text-align: center;
+    margin-left: 0%;
+}
+.introd_con h4{
+    font-size: 1.9em;
+    margin: 0;
+    margin-top: 10%;
+}
+.introd_con p {
+    font-size: 0.9em;
+    margin: 2;
+}
+
+
+.introd_logo img{
+    height: 300px;
+}
+
+.fullf{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer h1{  
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+}
+}
+
+@media screen and (max-width: 375px){
+.fullm{
+    height: 90px;
+}
+
+.menu{
+    display: block;
+    height: 90px;
+}
+.menu_left{
+    height: 90px;
+}
+.menu_left img{
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+}
+
+.menu_right{
+    display: none;
+}
+.menu_right li{
+    font-weight: unset;
+}
+.menu_right button{
+      font-size: 0.9em;
+}
+.menu_right a{
+  font-size: 1em;
+}   
+
+.fullz{
+    padding-top: 90px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    width:100%;
+    height: 550px;
+    display: block;
+}
+.intro_wel{
+    text-align: center;
+}
+.intro_wel h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+.intro_wel p{
+    display: block;
+    font-family: Tahoma;
+    font-size: 0.9em;
+    color: orange;
+    opacity: 0.9;
+    font-weight: bolder;
+}
+
+.intro_logo{
+    margin: 10% 0;  
+}
+
+.intro_logo img{
+    height: 300px;
+  
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.socials-box {
+    background-color: orange;
+    width: 40px;
+    height: 40px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
+}
+    
+.socials-box a {
+    text-decoration: none;
+}
+    
+.socials-box img {
+max-width: 80%;
+max-height: 80%;
+}
+
+.fullx{
+    height: 180px;
+    margin-bottom: 10%;    
+}
+.pepes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+.fully{
+    width:100%;
+    height: 100px;
+}
+.amaz{
+    width:100%;
+    font-size: 2.5em;
+}
+
+.fullk{
+   height: 600px;
+}
+
+.introduc{
+    height: 600px;
+    display: block;
+}
+.introd_con{
+    text-align: center;
+    margin-left: 0%;
+}
+.introd_con h4{
+    font-size: 1.9em;
+    margin: 0;
+    margin-top: 10%;
+}
+.introd_con p {
+    font-size: 0.9em;
+    margin: 2;
+}
+
+
+.introd_logo img{
+    height: 300px;
+}
+
+.fullf{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer h1{  
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+}
+}
+
